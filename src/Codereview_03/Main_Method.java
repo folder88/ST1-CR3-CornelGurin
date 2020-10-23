@@ -26,8 +26,44 @@ public class Main_Method {
 
         //Print for Task_05
 
-        Method_Calls object01 = new Method_Calls(3,5);
-        Method_Calls object02 = new Method_Calls(3);
+       calculateRectArea method01_1object = new calculateRectArea(3,6);
+       calculateRectArea method01_2object = new calculateRectArea(4,8);
+       calculateRectArea method01_3object = new calculateRectArea(6,20);
+
+       System.out.println(method01_1object.calculateArea());
+       System.out.println(method01_2object.calculateArea());
+       System.out.println(method01_3object.calculateArea());
+
+       calculateRectArea method02_1object = new calculateRectArea(0,0);
+       calculateRectArea method02_2object = new calculateRectArea(0,0);
+       calculateRectArea method02_3object = new calculateRectArea(0,0);
+
+       method02_1object.void_method(5,6);
+       method02_2object.void_method(8,6);
+       method02_3object.void_method(8,12);
+
+
+       calculateArea_Perimeter Method01_1object = new calculateArea_Perimeter(5);
+       calculateArea_Perimeter Method01_2object = new calculateArea_Perimeter(8);
+       calculateArea_Perimeter Method01_3object = new calculateArea_Perimeter(12);
+
+       Method01_1object.CalculateArea();
+       Method01_2object.CalculateArea();
+       Method01_3object.CalculateArea();
+
+       calculateArea_Perimeter Method02_1object = new calculateArea_Perimeter(0);
+       calculateArea_Perimeter Method02_2object = new calculateArea_Perimeter(0);
+       calculateArea_Perimeter Method02_3object = new calculateArea_Perimeter(0);
+
+       System.out.println(Method02_1object.return_methodarea(4));
+       System.out.println(Method02_1object.return_methodperimeter(4));
+
+
+       System.out.println(Method02_2object.return_methodarea(5));
+       System.out.println(Method02_2object.return_methodperimeter(5));
+
+       System.out.println(Method02_3object.return_methodarea(12));
+       System.out.println(Method02_3object.return_methodperimeter(12));
 
 
 
