@@ -1,3 +1,7 @@
+package Codereview_03;
+
+import Codereview_03.Function;
+
 public class Main_Method {
 
     public static void main(String[] args){
