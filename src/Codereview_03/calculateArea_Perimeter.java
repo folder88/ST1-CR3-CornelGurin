@@ -17,8 +17,8 @@ public class calculateArea_Perimeter {
         float Area = this.height * this.height;
         float Perimeter = this.height * 4;
 
-        System.out.println("The Area is = " + Area);
-        System.out.println("The Perimeter is = " + Perimeter);
+        System.out.println("The square Area  is = " + Area);
+        System.out.println("The square Perimeter is = " + Perimeter);
 
     }
 
@@ -48,8 +48,10 @@ public class calculateArea_Perimeter {
         float perimeter = height *4;
 
 
-        System.out.println("The area of the rectangular = " + area);
-        System.out.println("The perimeter of the rectangular = " + perimeter);
+        System.out.println("_____________Task_05 method3_square____________________");
+        System.out.println("");
+        System.out.println("The area of the square = " + area);
+        System.out.println("The perimeter of the square = " + perimeter);
 
 
     }

@@ -73,12 +73,20 @@ public class Main_Method {
         method02_2object.void_method(8,6);
         method02_3object.void_method(8,12);
 
+        //Creating Object Method_03
+        calculateRectArea method03_object = new calculateRectArea(0,0);
+
+        //Print Method_03
+        System.out.println("");
+        method03_object.input_method();
+
         //Creating Objects for Method_01_square
         calculateArea_Perimeter Method01_1object = new calculateArea_Perimeter(5);
         calculateArea_Perimeter Method01_2object = new calculateArea_Perimeter(8);
         calculateArea_Perimeter Method01_3object = new calculateArea_Perimeter(12);
 
         //Print Method_01_sqaure
+        System.out.println("");
         System.out.println("_____________Task_05 method1_square____________________");
         System.out.println("");
         Method01_1object.CalculateArea();
@@ -102,6 +110,12 @@ public class Main_Method {
         System.out.println(Method02_3object.return_methodarea(12));
         System.out.println(Method02_3object.return_methodperimeter(12));
 
+
+        //Creating Objects for Method_03_square
+        calculateArea_Perimeter Method03_object1 = new calculateArea_Perimeter(0);
+
+        //Print Method_03_square
+        Method03_object1.input_method();
 
 
     }

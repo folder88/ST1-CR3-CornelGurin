@@ -36,15 +36,18 @@ public class calculateRectArea {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter the rentangular height ");
+        System.out.println("Enter the rentangular height: ");
         float height = scan.nextFloat();
 
-        System.out.println("Enter the rectangular width ");
+        System.out.println("Enter the rectangular width: ");
         float width = scan.nextFloat();
 
         float area = height * width;
 
+        System.out.println("_____________Task_05 method3_rectangular_______________");
+        System.out.println("");
         System.out.println("The area of the rectangular = " + area);
+        System.out.println("");
 
 
     }
