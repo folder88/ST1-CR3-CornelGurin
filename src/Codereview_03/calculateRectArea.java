@@ -14,6 +14,7 @@ public class calculateRectArea {
 
     }
 
+    // 1method
     public float calculateArea(){
 
           float area = this.height * this.width;
@@ -21,7 +22,7 @@ public class calculateRectArea {
           return area;
     }
 
-
+    //2method
     public void void_method(float a,float b){
 
           float area = a * b;
@@ -30,6 +31,7 @@ public class calculateRectArea {
 
     }
 
+    //3method
     public void input_method(){
 
         Scanner scan = new Scanner(System.in);
