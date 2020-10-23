@@ -22,10 +22,14 @@ public class calculateRectArea {
           return area;
     }
 
-    //2method
+    //2method with loop and array
     public void void_method(float a,float b){
 
-          float area = a * b;
+          float area = 1;
+          float [] array = {a,b};
+          for(int i = 0;i < array.length;i++){
+          area = area * array[i];
+          }
 
           System.out.println("The area of the rectangular = " + area);
 
