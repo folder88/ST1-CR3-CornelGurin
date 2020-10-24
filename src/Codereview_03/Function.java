@@ -10,7 +10,7 @@ public class Function {
 public void calculate_area(){
 
 
-    float area = this.height + this.width;
+    float area = this.height * this.width;
 
     System.out.println("The area of the rectangular = " + area);
 
